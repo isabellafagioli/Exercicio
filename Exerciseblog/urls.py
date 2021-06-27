@@ -23,5 +23,5 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
 
     # for post list
-    #path('', include('postlist.urls')),
+    path('', include('postlist.urls')),
 ]
